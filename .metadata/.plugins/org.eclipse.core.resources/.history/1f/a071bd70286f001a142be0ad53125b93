@@ -1,0 +1,41 @@
+package pack;
+
+import java.util.HashMap;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple App.
+ */
+ class One 
+{
+
+	
+	 static void calculate()
+	 {
+		 System.out.println("super");
+	 }
+	
+	 
+	
+ 
+}
+
+class Two extends One
+{
+	static void calculate()
+	 {
+		 System.out.println("super");
+	 }
+}
+
+
+public class AppTest
+{
+	public static void main(String args[])
+	{
+		calculate();
+	}
+}

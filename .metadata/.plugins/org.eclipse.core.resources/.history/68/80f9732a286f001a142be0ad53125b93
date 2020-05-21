@@ -1,0 +1,39 @@
+package pack;
+
+import java.util.HashMap;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+{
+
+	
+	public static void main(String args[])
+	{
+		String s="123fer$$";
+		String t=s.replaceAll("[^a-zA-Z0-9]", " ");
+HashMap<String,String> map=new HashMap<String,String>();
+map.put(null, null);
+map.put(null, null);
+
+map.put(null, "1");
+map.put("ss", "1.1");
+map.put("2", "gfh");
+map.put("3", "hgfg");
+		
+		System.out.println(map.get(null));
+		System.out.println(map.get("2"));
+		
+		System.out.println(map);
+	}
+
+ 
+}
+
+
+
